@@ -1,0 +1,27 @@
+:root {
+    /* sirve para modular el codigo */
+--blue: #1e90ff;
+--white: #ffffff;
+--pink: #E12AFB;
+}
+.box {
+    /* contenedro donde estan los elementos de texto */
+display: flex;
+background-color: var(--pink);
+flex-direction: row;
+flex-wrap: wrap;
+}
+.box div {
+    /* cada caja donde esta el texto */
+/* flex-grow: 4; */
+margin: 10px 5px;
+border-radius: 8px;
+padding: 5px;
+background-color: var(--blue);
+width: 33%;
+}
+.box div:first-child {
+    /* primera cajita */
+/* flex-grow: 12; */
+width: 64%;
+}
