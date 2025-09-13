@@ -1,0 +1,22 @@
+:root {
+--blue: #1e90ff;
+--white: #ffffff;
+}
+.shopping-cart{
+   animation: appear 2s ease-in-out; 
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.btn-pay{
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
